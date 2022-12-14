@@ -133,11 +133,7 @@ path{
 .spacing{
   margin:1%;
 }
-.card{
-  width:90%;
-  margin:auto;
-  
-}
+
 .ipadimg{
     width:100%;
      filter: blur(8px); 
@@ -319,7 +315,6 @@ transform: translateY(25vw);
   }
 }
 .col-sm{
-
   opacity: 0;
 }
 
