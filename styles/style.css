@@ -1,0 +1,391 @@
+@font-face
+{
+    font-family: 'mandatory-plaything-Regular';
+  src: url('mandatory-plaything-Regular.eot');
+  src: url('mandatory-plaything-Regular.eot?#') format('embedded-opentype'),
+      url('mandatory-plaything-Regular.woff') format('woff'),
+      url('mandatory-plaything-Regular.ttf') format('truetype');
+}
+:root {
+	--cell-size: 100px;
+
+	--color: #81c3fd; /* for hover */
+	--color-set: #0275d8; /* when set */
+	--l: 10px; /* X line-width */
+}
+
+
+.nav-link, a, h1, h2,h3{
+    font-family: 'mandatory-plaything-Regular';
+}
+
+
+/* Container holding the image and the text */
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-top:5vh;
+    margin-bottom:5vh;
+ 
+  }
+.fa{
+  text-decoration: none;
+  color:#340913;
+  font-size: 4vw ;
+  padding: 20px 0 20px 0;
+}
+.fa:hover{
+  box-shadow: 0px 0px 12px  rgba(0, 0, 0, 0.55);
+}
+.pbar{
+  width:80%;
+  border-radius:8px;
+  height:1vh;
+  display: black;
+  background-color: #000000;
+}
+.pbarperc{
+width:30%;
+  background-color: rgb(175, 67, 67);
+  height:1vh;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+
+}
+.pbarperc2{
+  width:60%;
+  background-color: rgb(104, 136, 99);
+  height:1vh;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.card{
+  background-color:#f2f2f2;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+}
+.custom-shape-divider-bottom-1670812343 {
+  position: absolute;
+  width: 100%;
+  bottom:-15vh;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670812343 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 260px;
+}
+
+.custom-shape-divider-bottom-1670812343 .shape-fill {
+  fill: #52163c;
+}
+  .custom-shape-divider-bottom-1670788328 {
+
+    width: 100%;
+    margin-bottom:-2vh;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+
+.custom-shape-divider-bottom-1670788328 svg {
+    position: relative;
+    display: block;
+    width: calc(187% + 1.3px);
+    height: 173px;
+}
+
+.custom-shape-divider-bottom-1670788328 .shape-fill {
+    fill: 	 #f2f2f2;
+}
+.custom-shape-divider-bottom-1670808110 {
+  position: absolute;
+  width: 100%;
+  border-bottom:2px solid 	 #f2f2f2;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670808110 svg {
+  position: relative;
+  display: block;
+  width: calc(136% + 1.3px);
+  height: 149px;
+}
+
+.custom-shape-divider-bottom-1670808110 .shape-fill {
+  fill: #bfbfbf;
+}
+path{
+  border: none !important;
+  outline:none !important;
+}
+.btn{
+  background-color: #340913;
+  color:	 #f2f2f2
+}
+.spacing{
+  margin:1%;
+}
+.card{
+  width:90%;
+  margin:auto;
+  
+}
+.ipadimg{
+    width:100%;
+     filter: blur(8px); 
+     min-height: 70vh;
+      max-height:80vh; 
+      object-fit:fill
+}
+.imgcontainer{
+    min-height:85vh;
+}
+.parentCon{
+    min-height:100vh;
+}
+.tablet{
+  background-color: 	 #f2f2f2;
+  display: flex;
+  margin-top:10%;
+  justify-content:center;
+  border-top: 15px solid #340913 !important;
+  border-bottom: 15px solid #340913 !important;
+  border-left:5px solid #340913 !important;
+  border-right:5px solid #340913 !important;
+  border-radius: 6px;
+  width:90%;
+  max-height: 80vh;
+  box-shadow: 0px 0px 12px #000000;
+}
+
+  .centered {
+    width:90%;
+    margin:auto;
+    padding-top:10px;
+    overflow-y: scroll;
+    max-height: 95%;
+
+  }
+  .centered::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 4px;
+}
+.centered{
+    scrollbar-width: thin;
+   /* "auto" or "thin" */
+    scrollbar-color: rgb(26,24,29) rgb(255, 255, 255);
+   /* scroll thumb and track */
+}
+.centered::-webkit-scrollbar-track {
+    background:#340913;
+   /* color of the tracking area */
+    border-radius: 3px;
+}
+.centered::-webkit-scrollbar-thumb {
+    background-color: #EC6988;
+   /* color of the scroll thumb */
+    border-radius: 12px;
+   /* roundness of the scroll thumb */
+    border: 3px solid #EC6988;
+   /* creates padding around scroll thumb */
+    border-radius: 4px;
+}
+
+
+ 
+
+ h1{
+  z-index:2;
+ }
+ .custom-shape-divider-bottom-1670857645 {
+  position: absolute;
+
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670857645 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 98px;
+}
+
+.custom-shape-divider-bottom-1670857645 .shape-fill {
+  fill:#EC6988;
+}
+.vertical-center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.bug{
+ 
+animation:caranimation 6s forwards;
+width:4vw;
+box-shadow:none !important;
+}
+@keyframes caranimation{
+  from{
+transform: translateY(-25vw);
+  }
+  to{
+
+transform: translateY(25vw);
+  }
+}
+.fa-terminal{
+  animation:blinker 3s forwards;
+}
+@keyframes blinker{
+  from{
+    filter:opacity(0)
+  }
+  to{
+    filter:opacity(1)
+  }
+}
+.bugcontainer {
+  margin:auto;
+}
+.ghost {
+  width:25%;
+  margin: auto;
+  animation: float 3s ease-out infinite;
+
+}
+@keyframes float {
+  50% {
+    transform: translate(0, 20px);
+  }
+}
+.shadowFrame {
+  width: 200px;
+  
+
+}
+/**{
+  border:1px solid red !important;
+}*/
+
+.bugcontainer{
+  animation: fade 3s ease-out;
+}
+.shadow {
+  animation: shrink 3s ease-out infinite;
+  transform-origin: center center;
+}
+.shadow ellipse {
+  transform-origin: center center;
+}
+@keyframes shrink {
+  0% {
+    width: 90%;
+    margin: 0 5%;
+  }
+  50% {
+    width: 60%;
+    margin: 0 18%;
+  }
+  100% {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+
+
+@keyframes fade{
+  from{
+    filter:opacity(0)
+  }
+  to{
+    filter:opacity(1)
+  }
+}
+.col-sm{
+
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+ 
+  background-color: hsla(322, 58%, 20%); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f2f2f2;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #340913;;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.fa-bars{
+  padding:10px;
+  cursor: pointer;
+  font-size: 24pt !important;
+  box-shadow:none!important;
+}
+*{
+  user-select: none;
+}
