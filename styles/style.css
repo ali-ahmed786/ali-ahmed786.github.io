@@ -317,9 +317,9 @@ transform: translateY(25vw);
     filter:opacity(1)
   }
 }
-.col-sm{
+/*.col-sm{
   opacity: 0;
-}
+}*/
 
 @keyframes fadeIn {
   from {
